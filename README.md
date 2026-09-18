@@ -470,6 +470,6 @@ The [training repository's bibliography](https://github.com/AryanSehgal/anime-fa
 
 **[Aryan Sehgal](https://github.com/AryanSehgal)** — custom StyleFAT model training, research-to-ONNX integration, and development of the end-to-end application, with the research experiments documented in the companion repository.
 
-The custom model work builds on published research and the project team's implementation and experimentation. Credit for the original papers, external tools, and separately bundled models remains with their respective authors.
+The custom model work builds on published research. Credit for the original papers, external tools, and separately bundled models remains with their respective authors.
 
 No license file is currently included in this application repository. Check the applicable permissions and upstream terms before redistributing code, weights, or datasets; this README does not assign a license to them.
