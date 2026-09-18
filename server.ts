@@ -5,7 +5,7 @@ import { runGanInference, preloadModels, STYLES, AnimeGanStyle } from './server/
 
 async function startServer() {
   const app = express();
-  const PORT = 3000;
+  const PORT = Number(process.env.PORT) || 3000;
 
   // Configure body-parsers with large limits for high-resolution images
   app.use(express.json({ limit: '50mb' }));
