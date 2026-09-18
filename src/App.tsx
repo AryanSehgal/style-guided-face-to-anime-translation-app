@@ -76,6 +76,10 @@ export default function App() {
         throw new Error(data.error || 'Failed to stylize portrait');
       }
 
+      if (typeof data.stylizedImage !== 'string' || !data.stylizedImage.startsWith('data:image/')) {
+        throw new Error('The server returned no valid stylized image.');
+      }
+
       setStylizedResult(data);
     } catch (err: any) {
       console.error('Stylization error:', err);
