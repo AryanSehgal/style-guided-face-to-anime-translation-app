@@ -399,6 +399,19 @@ export default function App() {
           onClose={() => setShowExportModal(false)}
         />
       )}
+      
+      <footer className="py-6 text-center text-sm text-zinc-500 dark:text-zinc-400">
+        Built by{' '}
+        <a
+          href="https://github.com/AryanSehgal"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-medium text-indigo-600 hover:underline dark:text-indigo-400"
+        >
+          Aryan Sehgal
+        </a>
+      </footer>
+      
     </div>
   );
 }
