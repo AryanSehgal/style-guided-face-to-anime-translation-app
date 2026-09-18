@@ -73,6 +73,14 @@ app.post('/api/stylize', async (req, res) => {
 
     return res.json({
       success: true,
+      stylizedImage: result.dataUrl,
+      inferenceTimeMs: result.inferenceTimeMs,
+      totalTimeMs: result.totalTimeMs,
+      style: result.style,
+      modelName: STYLES[result.style].name,
+      width: result.width,
+      height: result.height,
+      format: result.format,
       dataUri: result.dataUrl,
       metrics: {
         latencyMs: result.totalTimeMs,
