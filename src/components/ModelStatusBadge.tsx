@@ -31,7 +31,7 @@ export const ModelStatusBadge: React.FC<ModelStatusBadgeProps> = ({
           Backend GAN Engine:
         </span>
         <span className="text-zinc-500 dark:text-zinc-400">
-          {modelName ? modelName : 'AnimeGANv2 Generator (ONNX)'}
+          {modelName ? modelName : 'Pretrained StyleFAT based GAN (ONNX)'}
         </span>
       </div>
 

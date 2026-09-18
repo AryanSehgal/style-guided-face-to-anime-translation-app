@@ -15,7 +15,7 @@ async function startServer() {
   app.get('/api/status', (req, res) => {
     res.json({
       status: 'online',
-      engine: 'AnimeGANv2 Native ONNX Runtime',
+      engine: 'StyleFAT GAN ONNX Runtime',
       architecture: 'Generator GAN (Direct Embedded CPU Inference)',
       zeroThirdPartyApi: true,
       availableStyles: Object.values(STYLES).map(s => ({

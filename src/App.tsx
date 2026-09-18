@@ -187,7 +187,7 @@ export default function App() {
               </h2>
               <p className="text-sm text-zinc-500 dark:text-zinc-400 leading-relaxed">
                 Provide a face portrait using your camera or upload an image file. The pre-trained
-                AnimeGANv2 generator processes your facial features locally on our server without
+                StyleFAT based generator processes your facial features locally on our server without
                 external cloud APIs.
               </p>
             </div>
@@ -341,7 +341,7 @@ export default function App() {
                   <div className="p-2.5 rounded-lg bg-zinc-50 dark:bg-zinc-800/60 border border-zinc-200/60 dark:border-zinc-700/60">
                     <span className="text-zinc-400 block text-[11px]">Architecture</span>
                     <span className="font-semibold text-zinc-800 dark:text-zinc-200">
-                      AnimeGANv2 Generator
+                      Pretrained Generator
                     </span>
                   </div>
                   <div className="p-2.5 rounded-lg bg-zinc-50 dark:bg-zinc-800/60 border border-zinc-200/60 dark:border-zinc-700/60">
